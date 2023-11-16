@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    width: 600px;
+    max-width: 90%;
+    border: solid 1px black;
+}
+
+/* oldal felépítése */
+header {
+    grid-area: h;
+    border: solid 1px black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav {
+    border: solid 1px black;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+article {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+section {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+footer {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+/* képek elrendezése */
+.nagykep {
+
+}
+
+#kepek {
+
+}
+
+/* menü testreszabása */
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: white;
+    background-color: red;
+}
+
+section img {
+    width: 100%;
+    
+}
